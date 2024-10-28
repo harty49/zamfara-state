@@ -1,0 +1,180 @@
+.bg-image {
+  background-image: url(../assets/images/pexels-korkut-mamet-799942261-28466723.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 40rem; */
+  padding-top: 4rem;
+}
+
+.bc-image {
+  background-image: url(../assets/images/img103.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: disc;
+}
+.title-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  isolation: isolate;
+  padding-top: 5rem;
+}
+
+#pagetitle {
+  text-align: center;
+  background-color: #191919;
+  padding: 140px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#pagetitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 25, 25, 0.86);
+}
+
+.page-title {
+  color: white;
+}
+
+.row {
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card {
+  text-align: center;
+}
+
+.text-box {
+  max-width: 50rem;
+}
+
+.content-container {
+  /* padding-top: 3rem; */
+  background-image: url(../assets/images/bg-section-01-scaled-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-bottom: 2rem; */
+  padding: 2.5rem;
+  height: 35rem;
+}
+
+.content-containers {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.text-box-heading {
+  text-align: center;
+}
+.text-box-heading h2 {
+  text-decoration: double;
+}
+
+.tabs-section {
+  background-color: rgb(240, 237, 237);
+  padding: 4rem;
+}
+
+.tab-content {
+  /* background-color: white; */
+  border-radius: 0.5rem;
+}
+
+.nav-item {
+  color: black;
+}
+
+.card-container {
+  display: grid;
+  justify-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .content-container {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 550px) {
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.partner-image {
+  height: 25rem;
+  width: 25rem;
+}
+
+.services-main-heading {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.services-main {
+  padding-top: 4rem;
+  background-color: rgb(255, 253, 253);
+}
+
+.services-main-main {
+  max-width: 60rem;
+}
+
+.services-cards {
+  justify-content: center;
+}
+
+.list-group-item {
+  text-align: center;
+}
+
+.iconic {
+  font-size: 4rem;
+}
+
+.wireless-content {
+  padding: 4rem;
+}
+
+.about-col {
+  max-width: 36rem;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 792px) {
+  .about-col {
+    text-align: center;
+  }
+}
+
+.btn-holder {
+  display: grid;
+  justify-content: center;
+}
+.submit-btn {
+  max-width: 20rem;
+  padding-bottom: 5rem;
+}
+
+.content-image {
+  border-radius: 2rem;
+}
